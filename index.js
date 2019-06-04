@@ -6,7 +6,7 @@ client.on('ready', _ => {
 })
 
 client.on('message', message => {
-    if(message.content.toLowerCase() == "oof") {
+    if(message.content.toUpperCase() == "OOF") {
         message.channel.send('"Out of Facility, sometimes interchanged with the term Out of Office, indicating that a person is on vacation or away from the workplace. OOF is commonly used within Microsoft company culture, originating from a command in its Xenix mail system."')
     }
 })
